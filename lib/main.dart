@@ -1,8 +1,13 @@
+import 'package:dating_ukraine/pages/auth_reg_pages/auth_reg_model.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'package:provider/provider.dart';
 import 'pages/splash_screen.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(DatingUkraine());
 }
 
@@ -13,17 +18,22 @@ class DatingUkraine extends StatelessWidget {
   Color _accentColor= HexColor('#FF3CBD');
 
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MultiProvider(
+        providers: [
+        ChangeNotifierProvider<AuthRegModel>(create: (_) => AuthRegModel()),
+
+    ],
+    child:
+    MaterialApp(
       title: 'Знайомства Украхїна',
       theme: ThemeData(
         primaryColor: _primaryColor,
         scaffoldBackgroundColor: Colors.grey.shade100, colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.grey).copyWith(secondary: _accentColor),
       ),
       home: SplashScreen(title: 'Знайомства Украхїна'),
-    );
+    ));
   }
 }
 

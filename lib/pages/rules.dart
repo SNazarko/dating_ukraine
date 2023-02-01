@@ -1,4 +1,4 @@
-import 'package:dating_ukraine/pages/registration.dart';
+import 'package:dating_ukraine/pages/auth_reg_pages/registration.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 

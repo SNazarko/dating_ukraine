@@ -1,5 +1,5 @@
 import 'package:bottom_bar_with_sheet/bottom_bar_with_sheet.dart';
-import 'package:dating_ukraine/pages/profile.dart';
+import 'package:dating_ukraine/pages/profile_page/profile.dart';
 import 'package:dating_ukraine/pages/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

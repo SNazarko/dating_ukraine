@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872617474407",
+    "project_id": "datingukraine-57700",
+    "storage_bucket": "datingukraine-57700.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872617474407:android:680972ad0ba77357d2d7c2",
+        "android_client_info": {
+          "package_name": "com.dating_ukraine.dating_ukraine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872617474407-ed9ffvntvd6s5anj1r9l838k7uuqloht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1YT-eZ3bhvUTdazenp0yXdT6lhyZE51E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872617474407-ed9ffvntvd6s5anj1r9l838k7uuqloht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

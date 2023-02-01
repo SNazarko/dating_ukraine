@@ -2,7 +2,7 @@ import 'package:dating_ukraine/pages/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'profile.dart';
+import 'profile_page/profile.dart';
 import 'blacklist.dart';
 import 'dating_search.dart';
 import 'favorites.dart';

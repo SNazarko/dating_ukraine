@@ -2,8 +2,8 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import '../common/theme_helper.dart';
+import 'auth_reg_pages/login.dart';
 import 'forgot_password_verification.dart';
-import 'login.dart';
 import 'widgets/header_widget.dart';
 
 class ForgotPasswordPage extends StatefulWidget {
